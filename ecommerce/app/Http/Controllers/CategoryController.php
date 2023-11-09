@@ -19,6 +19,16 @@ class CategoryController extends Controller
         $category->categoriesName = $request->categoriesName;
         $category->save();
 
-        return redirect()->route('all-categories');
+        return redirect('all-categories')->with('status','data save .');
     }
+    public function categoryedit($id){
+        $category = Category::find($id);
+        return view('admin.categories.category-edit')->with('Category',$category);
+    }
+    // public function categoryUpdate  (Request $request,$id){
+    //     $category = Category::find($id);    
+    //     $category->categoriesName = $request->categoriesName;
+    //     $category->update();
+    //     return redirect('all-categories')->with('status','Data update,');
+    // }
 }

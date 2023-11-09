@@ -3,6 +3,7 @@
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,6 +36,8 @@ Route::middleware('auth')->group(function () {
     Route::get('all-categories',[CategoryController::class,'allcategories'])->name('all-categories');
     Route::get('create-categories',[CategoryController::class,'createcategories'])->name('create-categories');
     Route::post('store-category',[CategoryController::class,'storecategory'])->name('store-category');
+    Route::get('category-edit/{id}',[CategoryController::class,'categoryedit'])->name('category-edit');
+    Route::put('category-update/{id}',[CategoryController::class,'categoryUpdate'])->name('category-update');
 });
 
 require __DIR__.'/auth.php';
