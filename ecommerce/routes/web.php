@@ -38,6 +38,7 @@ Route::middleware('auth')->group(function () {
     Route::post('store-category',[CategoryController::class,'storecategory'])->name('store-category');
     Route::get('category-edit/{id}',[CategoryController::class,'categoryedit'])->name('category-edit');
     Route::put('category-update/{id}',[CategoryController::class,'categoryUpdate'])->name('category-update');
+    Route::delete('/category-delete/{id}',[CategoryController::class,'deletecategory'])->name('delete-category');
 });
 
 require __DIR__.'/auth.php';

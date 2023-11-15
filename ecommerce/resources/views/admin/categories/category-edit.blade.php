@@ -3,11 +3,11 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Edite Categories</h4>
-        <form class="form-inline" method="POST" action="store-category">
+        <form class="form-inline" method="POST" action="/category-update/{{$category->id}}">
             @csrf
-            @method('patch')
+            @method('PUT')
           <label class="sr-only" for="inlineFormInputName2">Category Name</label>
-          <input type="text" class="form-control mb-2 mr-sm-2" name="categoriesName" id="inlineFormInputName2" placeholder="Enter Category name">
+          <input type="text" class="form-control mb-2 mr-sm-2" name="categoriesName" id="inlineFormInputName2" placeholder="Enter Category name" value={{old('categoriesName',$category->categoriesName)}} style="background-color:white !important; color:black !important">
 
           <button type="submit" class="btn btn-primary mb-2">Submit</button>
         </form>
