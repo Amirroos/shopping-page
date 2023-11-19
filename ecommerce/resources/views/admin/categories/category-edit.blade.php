@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Edite Categories</h4>
-        <form class="form-inline" method="POST" action="/category-update/{{$category->id}}">
+        <form class="form-inline" method="POST" action="/admin/category-update/{{$category->id}}">
             @csrf
             @method('PUT')
           <label class="sr-only" for="inlineFormInputName2">Category Name</label>

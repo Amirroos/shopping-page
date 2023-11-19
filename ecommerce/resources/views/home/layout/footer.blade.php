@@ -5,12 +5,12 @@
               <div class="col-md-4">
                   <div class="full">
                      <div class="logo_footer">
-                       <a href="#"><img width="210" src="images/logo.png" alt="#" /></a>
+                       {{-- <a href="#"><img width="210" src="images/logo.png" alt="#" /></a> --}}
                      </div>
                      <div class="information_f">
-                       <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
-                       <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
-                       <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+                       <p><strong>ADDRESS:</strong> Tehran,Fatemi,meydan jahad</p>
+                       <p><strong>TELEPHONE:</strong> +98 912 219 5448</p>
+                       <p><strong>EMAIL:</strong> test@gmail.com</p>
                      </div>
                   </div>
               </div>
@@ -71,9 +71,9 @@
      </footer>
      <!-- footer end -->
      <div class="cpy_">
-        <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>
+        <p class="mx-auto">© 2021 create By <a href="#">A.Golkhoshboo</a><br>
         
-           Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+           company <a href="https://www.daluniverse.ir/" target="_blank">dall</a>
         
         </p>
      </div>

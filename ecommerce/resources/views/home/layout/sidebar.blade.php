@@ -17,7 +17,7 @@
                             On Everything
                          </h1>
                          <p>
-                            Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore obcaecati laudantium repudiandae ipsum debitis voluptatibus, amet cupiditate illum voluptate, est accusantium praesentium suscipit eveniet voluptates eos modi accusamus laborum vel!
                          </p>
                          <div class="btn-box">
                             <a href="" class="btn1">
@@ -42,7 +42,7 @@
                             On Everything
                          </h1>
                          <p>
-                            Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis enim quod? Hic qui, nihil impedit quisquam sed laboriosam magnam laudantium assumenda nemo, tenetur aspernatur obcaecati ex voluptatibus a consequatur!
                          </p>
                          <div class="btn-box">
                             <a href="" class="btn1">
@@ -67,7 +67,7 @@
                             On Everything
                          </h1>
                          <p>
-                            Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore labore temporibus, expedita magnam, repudiandae blanditiis quo soluta iure doloribus ratione nostrum vel saepe necessitatibus dignissimos voluptates veniam atque! Exercitationem, est.
                          </p>
                          <div class="btn-box">
                             <a href="" class="btn1">

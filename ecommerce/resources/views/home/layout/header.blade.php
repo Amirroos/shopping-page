@@ -210,7 +210,7 @@
                                          </div>
                                      </div>
                                  </div>
-                             </nav>
+                             </nav> 
                         @else
                               <li class="nav-item">
                                  <a class="btn btn-info" href="{{ route('login')}}">login</a>

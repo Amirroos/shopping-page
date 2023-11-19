@@ -2,7 +2,7 @@
     <div class="container">
        <div class="heading_container heading_center">
           <h2>
-             Customer's Testimonial
+             Customer's feedback
           </h2>
        </div>
        <div id="carouselExample3Controls" class="carousel slide" data-ride="carousel">
@@ -12,19 +12,19 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/client.jpg" alt="">
+                            <img src="images/bazigar.jpg" alt="">
                          </div>
                       </div>
                    </div>
                    <div class="detail-box">
                       <h5>
-                         Anna Trevor
+                         Bahare
                       </h5>
                       <h6>
                          Customer
                       </h6>
                       <p>
-                         Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque hic repudiandae non, debitis modi obcaecati voluptate aliquam ut perspiciatis, et ea nisi incidunt eius saepe! Consequuntur quod error quibusdam voluptatibus.
                       </p>
                    </div>
                 </div>
@@ -34,19 +34,19 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/client.jpg" alt="">
+                            <img src="images/tarlan.jpg" alt="">
                          </div>
                       </div>
                    </div>
                    <div class="detail-box">
                       <h5>
-                         Anna Trevor
+                         Tarlan
                       </h5>
                       <h6>
                          Customer
                       </h6>
                       <p>
-                         Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis aut aliquam architecto eligendi, minus voluptas. Quam voluptas sed ex impedit doloremque, sit quaerat, vitae maxime aliquid cumque obcaecati cupiditate.
                       </p>
                    </div>
                 </div>
@@ -56,19 +56,19 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/client.jpg" alt="">
+                            <img src="images/gohar.jpg" alt="">
                          </div>
                       </div>
                    </div>
                    <div class="detail-box">
                       <h5>
-                         Anna Trevor
+                         gohar
                       </h5>
                       <h6>
                          Customer
                       </h6>
                       <p>
-                         Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium maiores blanditiis assumenda neque sequi consequatur itaque quidem laborum veritatis nesciunt, accusamus, tenetur quibusdam nam reiciendis repudiandae eaque sunt inventore!
                       </p>
                    </div>
                 </div>

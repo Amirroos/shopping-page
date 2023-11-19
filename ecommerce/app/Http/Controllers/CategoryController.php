@@ -19,7 +19,7 @@ class CategoryController extends Controller
         $category->categoriesName = $request->categoriesName;
         $category->save();
  
-        return redirect('all-categories')->with('status','data save .');
+        return redirect('admin/all-categories')->with('status','data save .');
     }
     public function categoryedit($id){
         $category = Category::find($id);
@@ -29,11 +29,12 @@ class CategoryController extends Controller
     //     dd('update');
     // }
 
-    public function categoryUpdate   (Request $request,$id){
+    public function categoryUpdate(Request $request,$id){
+        
         $category = Category::find($id);    
         $category->categoriesName = $request->categoriesName;
         $category->update();
-        return redirect('all-categories')->with('status','Data update,');
+        return redirect('admin/all-categories')->with('status','Data update,');
     }
     public function deletecategory($id){
         $category = Category::find($id);

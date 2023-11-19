@@ -3,6 +3,7 @@
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserController;
 use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
@@ -26,19 +27,14 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/',[HomeController::class,'index']);
 
-Route::get('/redirect',[HomeController::class,'redirect']);
+// Route::get('/redirect',[HomeController::class,'redirect']);
 Route::middleware('auth')->group(function () {
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
-    Route::get('all-categories',[CategoryController::class,'allcategories'])->name('all-categories');
-    Route::get('create-categories',[CategoryController::class,'createcategories'])->name('create-categories');
-    Route::post('store-category',[CategoryController::class,'storecategory'])->name('store-category');
-    Route::get('category-edit/{id}',[CategoryController::class,'categoryedit'])->name('category-edit');
-    Route::put('category-update/{id}',[CategoryController::class,'categoryUpdate'])->name('category-update');
-    Route::delete('/category-delete/{id}',[CategoryController::class,'deletecategory'])->name('delete-category');
+
 });
 
-require __DIR__.'/auth.php';
+require __DIR__.'/../auth.php';

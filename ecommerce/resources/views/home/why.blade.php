@@ -100,7 +100,7 @@
                       Fast Delivery
                    </h5>
                    <p>
-                      variations of passages of Lorem Ipsum available
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci 
                    </p>
                 </div>
              </div>
@@ -215,7 +215,7 @@
                       Free Shiping
                    </h5>
                    <p>
-                      variations of passages of Lorem Ipsum available
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure impedit quidem
                    </p>
                 </div>
              </div>
@@ -236,7 +236,7 @@
                       Best Quality
                    </h5>
                    <p>
-                      variations of passages of Lorem Ipsum available
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia  
                    </p>
                 </div>
              </div>

@@ -23,6 +23,8 @@ class User extends Authenticatable
         'phone',
         'address',
         'password',
+        'is_superuser',
+        'is_staff',
     ];
 
     /**
@@ -44,4 +46,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+    public function isSuperuser(){
+        return $this->is_superuser;
+    }
+    public function isstaffuser(){
+        return $this->is_staff;
+    }
+
 }
