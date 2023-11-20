@@ -16,7 +16,7 @@
         <thead>
           <tr>
             <th> # </th>
-            <th> Category name </th>
+            <th> Category name</th>
             <th> Action </th>
           </tr>
         </thead>

@@ -16,6 +16,7 @@
       <table class="table table-bordered">
         <thead>
           <tr>
+            <td>id</td>
             <td>Name</td>
             <td>Email</td>
             <td>Phone</td>
@@ -35,13 +36,13 @@
             <td>{{$user->address}}</td>
             <td>
                 @if($user->email_verified_at)
-                    Action
+                    <span class="badge badge-success">Active</span>
                 @else
-                    DisAction
+                    <span class="badge badge-danger">DisAction</span>
                 @endif
             </td>
             <td>
-                <a href="#" class="btn btn-sm btn-info">Edit</a>
+                <a href="{{route('edit-user', $user->id)}}" class="btn btn-sm btn-info">Edit</a>
                 <button type="submit" class="btn btn-sm btn-danger deletebtn">Delete</button>
             </td>
           </tr> 

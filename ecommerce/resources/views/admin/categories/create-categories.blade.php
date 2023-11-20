@@ -2,6 +2,7 @@
 <div class="col-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
+        @include('admin.layout.errors')
         <h4 class="card-title">Create Categories</h4>
         <form class="form-inline" method="POST" action="store-category">
             @csrf

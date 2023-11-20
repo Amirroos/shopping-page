@@ -2,6 +2,7 @@
 <div class="col-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
+        @include('admin.layout.errors')
         <h4 class="card-title">Create User</h4>
         <form class="form-inline" method="POST" action="store-user">
             @csrf
@@ -18,10 +19,10 @@
           <input type="text" class="form-control mb-2 mr-sm-2" id="address" name="address" placeholder="Enter User Address" style="background-color:white !important; color:black !important;">
 
           <label class="sr-only" for="password">Password</label>
-          <input type="number" class="form-control mb-2 mr-sm-2" id="password" name="password" placeholder="Enter User Password" style="background-color:white !important; color:black !important;">
+          <input type="password" class="form-control mb-2 mr-sm-2" id="password" name="password" placeholder="Enter User Password" style="background-color:white !important; color:black !important;">
           
           <label class="sr-only" for="password_confirmation">Confirmation</label>
-          <input type="number" class="form-control mb-2 mr-sm-2" id="password_confirmation" name="password_confirmation" placeholder="Enter Password Confirmation" style="background-color:white !important; color:black !important;">
+          <input type="password" class="form-control mb-2 mr-sm-2" id="password_confirmation" name="password_confirmation" placeholder="Enter Password Confirmation" style="background-color:white !important; color:black !important;">
 
           <label class="sr-only" for="verfiy">User Verification</label> 
           <input type="checkbox" class="form-check-input" id="verfiy" name="verfiy">
