@@ -52,5 +52,11 @@ class User extends Authenticatable
     public function isstaffuser(){
         return $this->is_staff;
     }
+    public function permissons(){
+        return $this->belongsToMany(Permission::class);
+    }
 
+    public function roles(){
+        return $this->belongsToMany(Role::class);
+    }
 }
