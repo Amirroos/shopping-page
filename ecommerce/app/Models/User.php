@@ -59,4 +59,7 @@ class User extends Authenticatable
     public function roles(){
         return $this->belongsToMany(Role::class);
     }
+    public function hasPermission($permission){
+        dd($this->permissions);
+    }
 }

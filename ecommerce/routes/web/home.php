@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use App\Models\Category;
+use App\Models\User;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,14 +20,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    if(Gate::allows('edit-user')){
+        return view('welcome');
+    }
+    dd('no');
+    
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/',[HomeController::class,'index']);
+// Route::get('/',[HomeController::class,'index']);
 
 // Route::get('/redirect',[HomeController::class,'redirect']);
 Route::middleware('auth')->group(function () {
