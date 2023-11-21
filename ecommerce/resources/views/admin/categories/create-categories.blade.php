@@ -7,7 +7,7 @@
         <form class="form-inline" method="POST" action="store-category">
             @csrf
           <label class="sr-only" for="inlineFormInputName2">Category Name</label>
-          <input type="text" class="form-control mb-2 mr-sm-2" name="categoriesName" id="inlineFormInputName2" placeholder="Enter Category name" style="background-color:white !important; color:black !important;">
+          <input type="text" class="form-control mb-2 mr-sm-2" name="categoriesName" id="inlineFormInputName2" placeholder="Enter Category name" style="background-color:white !important; color:black !important;" required>
 
           <button type="submit" class="btn btn-primary mb-2">Submit</button>
         </form>

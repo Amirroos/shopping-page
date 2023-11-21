@@ -15,6 +15,9 @@ class CategoryController extends Controller
         return view('admin.categories.create-categories');
     }
     public function storecategory(Request $request){
+        // $category =  $request->validate([
+        //     'name' => 'required|string|max:255',
+        // ]); 
         $category = new Category();
         $category->categoriesName = $request->categoriesName;
         $category->save();
