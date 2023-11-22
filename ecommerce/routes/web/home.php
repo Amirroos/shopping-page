@@ -20,18 +20,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    if(Gate::allows('edit-user')){
-        return view('welcome');
-    }
-    dd('no');
-    
-});
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
-// Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index']);
 
 // Route::get('/redirect',[HomeController::class,'redirect']);
 Route::middleware('auth')->group(function () {

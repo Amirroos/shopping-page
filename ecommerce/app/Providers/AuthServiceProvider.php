@@ -33,7 +33,9 @@ class AuthServiceProvider extends ServiceProvider
             Gate::define($permission->name,function($user) use ($permission){
                 // $user = User::find(3);
                 // dd($permission);
+                // dd($user);
                 return $user->hasPermission($permission);
+
             });
         }
         //permissions: 
