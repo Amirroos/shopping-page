@@ -58,7 +58,7 @@
         <span class="nav-link">options</span>
       </li>
       <li class="nav-item menu-items">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href={{ route('admin-dashboard') }}>
           <span class="menu-icon">
             <i class="mdi mdi-speedometer"></i>
           </span>
@@ -98,23 +98,31 @@
           <span class="menu-title">User management</span>
         </a>
       </li>
-      {{-- <li class="nav-item menu-items">
+       {{-- <li class="nav-item menu-items">
         <a class="nav-link" href="pages/charts/chartjs.html">
           <span class="menu-icon">
             <i class="mdi mdi-chart-bar"></i>
           </span>
           <span class="menu-title">Charts</span>
         </a>
-      </li>
+      </li> --}}
       <li class="nav-item menu-items">
-        <a class="nav-link" href="pages/icons/mdi.html">
+        <a class="nav-link" href={{ route('all-permissions') }}>
+          <span class="menu-icon">
+            <i class="mdi mdi-file-document-box"></i>
+          </span>
+          <span class="menu-title">Permissions</span>
+        </a>
+      </li>  
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="#">
           <span class="menu-icon">
             <i class="mdi mdi-contacts"></i>
           </span>
-          <span class="menu-title">Icons</span>
+          <span class="menu-title">role</span>
         </a>
       </li>
-      <li class="nav-item menu-items">
+      {{-- <li class="nav-item menu-items">
         <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
           <span class="menu-icon">
             <i class="mdi mdi-security"></i>
@@ -131,14 +139,6 @@
             <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
           </ul>
         </div>
-      </li>
-      <li class="nav-item menu-items">
-        <a class="nav-link" href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html">
-          <span class="menu-icon">
-            <i class="mdi mdi-file-document-box"></i>
-          </span>
-          <span class="menu-title">Documentation</span>
-        </a>
       </li> --}}
     </ul>
   </nav>
