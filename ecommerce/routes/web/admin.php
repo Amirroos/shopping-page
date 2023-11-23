@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PermissionController;
+use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 
 use Illuminate\Support\Facades\Route;
@@ -42,6 +43,17 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('edit-permission/{id}',[PermissionController::class,'editPermission'])->name('edit-permission');
     Route::put('update-permission/{id}',[PermissionController::class,'updatePermission'])->name('update-permission');
+
+    //roles managerent
+    Route::get('all-roles',[RoleController::class,'allrole'])->name('all-roles');
+
+    Route::get('create-role',[RoleController::class,'createrole'])->name('create-role');
+    Route::post('store-role',[RoleController::class,'storerole'])->name('store-role');
+
+
+    Route::get('edit-role/{id}',[RoleController::class,'editrole'])->name('edit-role');
+    Route::put('update-role/{id}',[RoleController::class,'updaterole'])->name('update-role');
+
 // });
 
 ?>

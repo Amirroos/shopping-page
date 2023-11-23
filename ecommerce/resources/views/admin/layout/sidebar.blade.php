@@ -60,7 +60,7 @@
       <li class="nav-item menu-items">
         <a class="nav-link" href={{ route('admin-dashboard') }}>
           <span class="menu-icon">
-            <i class="mdi mdi-speedometer"></i>
+            <img src={{asset('images/dashboard.png')}} style="width: 25px">
           </span>
           <span class="menu-title">Dashboard</span>
         </a>
@@ -85,7 +85,7 @@
       <li class="nav-item menu-items">
         <a class="nav-link" href="/admin/all-categories">
           <span class="menu-icon">
-            <i class="mdi mdi-playlist-play"></i>
+            <img src={{asset('images/menu.png ')}} style="width: 25px">
           </span>
           <span class="menu-title">Categories</span>
         </a>
@@ -93,7 +93,7 @@
       <li class="nav-item menu-items">
         <a class="nav-link" href="/admin/all-user">
           <span class="menu-icon">
-            <span class="mdi mdi-account-group"></span>
+            <img src={{asset('images/team.png')}} style="width: 25px">
           </span>
           <span class="menu-title">User management</span>
         </a>
@@ -109,15 +109,15 @@
       <li class="nav-item menu-items">
         <a class="nav-link" href={{ route('all-permissions') }}>
           <span class="menu-icon">
-            <i class="mdi mdi-file-document-box"></i>
+            <img src={{asset('images/permission.png')}} style="width: 25px">
           </span>
           <span class="menu-title">Permissions</span>
         </a>
       </li>  
       <li class="nav-item menu-items">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/admin/all-roles">
           <span class="menu-icon">
-            <i class="mdi mdi-contacts"></i>
+            <img src={{asset('images/project-manager.png')}} style="width: 25px">
           </span>
           <span class="menu-title">role</span>
         </a>
