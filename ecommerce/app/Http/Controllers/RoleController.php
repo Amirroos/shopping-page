@@ -24,9 +24,13 @@ class RoleController extends Controller
            $data =  $request->validate([
                'name' => 'nullable|string|max:255',
                'label' => 'nullable|string|max:255',
+               'permissions'=>'required|array',
 
            ]); 
            $role = Role::create($data);
+           if(isset($data['permission'])) {
+            $role->permission()->sync($data['permissions']);
+            }
            if($request->has('verfiy')){
                $role->markEmailAsVerified();
                // return redirect('admin.users.all-users');
