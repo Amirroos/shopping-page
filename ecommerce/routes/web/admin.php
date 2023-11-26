@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PermissionController;
+use App\Http\Controllers\productController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 
@@ -53,6 +54,15 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('edit-role/{id}',[RoleController::class,'editrole'])->name('edit-role');
     Route::put('update-role/{id}',[RoleController::class,'updaterole'])->name('update-role');
+
+    //product 
+    Route::get('all-products',[productController::class,'allproduct'])->name('all-products');
+
+    Route::get('create-product',[productController::class,'createproduct'])->name('create-product');
+    Route::post('store-product',[productController::class,'storeproduct'])->name('store-product');
+
+    Route::get('edit-product/{id}',[productController::class,'editproduct'])->name('edit-product');
+    Route::put('update-product/{id}',[productController::class,'updateproduct'])->name('update-product');
 
 // });
 
