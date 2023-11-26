@@ -122,6 +122,14 @@
           <span class="menu-title">role</span>
         </a>
       </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" href={{ route('all-products') }}>
+          <span class="menu-icon">
+            <img src={{asset('images/new-product.png')}} style="width: 25px">
+          </span>
+          <span class="menu-title">Products</span>
+        </a>
+      </li>
       {{-- <li class="nav-item menu-items">
         <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
           <span class="menu-icon">
